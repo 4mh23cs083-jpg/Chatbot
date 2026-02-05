@@ -6,7 +6,7 @@ from azure.core.credentials import AzureKeyCredential
 def main():
     # Configuration
     endpoint = "https://models.github.ai/inference"
-    model = "deepseek/DeepSeek-V3-0324"
+    model = "gpt-4o-mini"
     token = os.environ["GITHUB_TOKEN"]
 
     # Initialize client
